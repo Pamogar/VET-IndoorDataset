@@ -2,7 +2,7 @@
 
 3D reconstruction of the scene | 3D virtualization using VET
 :-------------------------:|:-------------------------:
-|![Figure 1](./Images/scene_reconstruct.png)|![Figure 2](./Images/virtualizacion_scene0005.png)|
+|![Figure 1](./Images/room_cut.png)|![Figure 2](./Images/final_scene_VR.png)|
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Pamogar/VET-IndoorDataset/blob/main/LICENSE.txt)
 
