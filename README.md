@@ -45,7 +45,7 @@ The dataset consistes of various indoor scenes with the sensor data, along with 
 ## Accessing the Dataset
 The VET-IndoorDataset is hosted on OneDrive due to the large size. You can access and download the scenes following the next link:
 
-[Download VET-IndoorDataset from OneDrive](PLACEHOLDER_LINK)
+[Download VET-IndoorDataset from OneDrive](https://upvedues-my.sharepoint.com/:f:/g/personal/pamogar_upv_edu_es/EkXtIVKaAltNkaleXeFLfZABZpTvqg6BDXhUDPDmm410qw?e=45wBNp)
 
 ## Citation
 If you find VET-IndoorDataset useful for your research, please consider citing it:
