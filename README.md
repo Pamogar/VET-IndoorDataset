@@ -35,7 +35,7 @@ The dataset consistes of various indoor scenes with the sensor data, along with 
 	- 3D semantic segmentation
 	- 3D instance segmentation
 	- CAD alignment + Layout
- - room_XXXX
+ - room_XXXX_XX
  	- Sensor data (.sens file)
    		- RGB-D images
 		- Camera pose information
