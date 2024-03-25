@@ -11,7 +11,7 @@ VET-IndoorDataset is an open-source dataset that complements and is similar to t
 sensor data in a .sens file, containing the RGB-D images, the camera pose information and the camera intrinsics information, all the necessary information to generate a 3D reconstruction.
 We recommend the use of ScanNet [SensReader](https://github.com/ScanNet/ScanNet/tree/master/SensReader) to read this files. Additionally, this
 dataset contains an extra scene with the different steps of the virtualization, specifically: 3D reconstruction, 3D semantic
-segmentation, layout, 3D instance segmentation and CAD alignment.The dataset focuses on indoor
+segmentation, 3D instance segmentation and CAD alignment + layout. The dataset focuses on indoor
 environments of various sizes and types, providing valuable resources for computer vision and robotics research.
 
 This README provides an overview of the dataset and instructions for accessing it.
@@ -31,15 +31,15 @@ The dataset consistes of various indoor scenes with the sensor data, along with 
 		- RGB-D images
 		- Camera pose information
 		- Camera intrinsics
+  	- 3D reconstructed scene
+	- 3D semantic segmentation
+	- 3D instance segmentation
+	- CAD alignment + Layout
  - room_XXXX_XX
  	- Sensor data (.sens file)
    		- RGB-D images
 		- Camera pose information
 		- Camera intrinsics
-  	- 3D reconstructed scene
-	- 3D semantic segmentation
-	- 3D instance segmentation
-	- CAD alignment + Layout
 
 ## Accessing the Dataset
 The VET-IndoorDataset is hosted on OneDrive due to the large size. You can access and download the scenes following the next link:
