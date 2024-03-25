@@ -25,7 +25,12 @@ Temporarily, please refer to the conference publication:
 - [Virtual Experience Toolkit: Enhancing 3D Scene Virtualization From Real Environments Through Computer Vision and Deep Learning Techniques](https://ieeexplore.ieee.org/abstract/document/10405757)
 
 ## Contents
-The dataset consistes of various indoor scenes with the sensor data, along with an extra scene with the step-by-step results, with the following organization:
+The dataset consists of 30 indoor scenes, specifically, 2 bathrooms, 4 storage rooms, 1 pizzeria, 4 living rooms, 1 bedroom, 1 kitchen, 1 i+d lab, 3 offices, 1 clothing store, and 12 meeting rooms.
+For each room, the sensor data in .sens files is provided; it was captured with an Intel RealSense D415i through the BundleFusion app implemented in VET. Additionally, for the room_demo used in the results
+of the original paper, we also provide the step-by-step virtualization results; more precisely, we provide the .ply file for the 3D reconstruction, the 3D semantic segmentation and the 3D instance 
+segmentation, and a .fbx file for the CAD alignment + layout. For the interpretation of these results, the 3D instance segmentation results represent every individual instance with a different random color,
+and the 3D semantic segmentation results represent the same objects with the same colors. The dataset organization is as follows:
+
 - room_demo
 	- Sensor data (.sens file)
 		- RGB-D images
