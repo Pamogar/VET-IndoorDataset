@@ -31,15 +31,15 @@ The dataset consistes of various indoor scenes with the sensor data, along with 
 		- RGB-D images
 		- Camera pose information
 		- Camera intrinsics
-	- 3D reconstructed scene
-	- 3D semantic segmentation
-	- 3D instance segmentation
-	- CAD alignment + Layout
  - room_XXXX_XX
  	- Sensor data (.sens file)
    		- RGB-D images
 		- Camera pose information
 		- Camera intrinsics
+  	- 3D reconstructed scene
+	- 3D semantic segmentation
+	- 3D instance segmentation
+	- CAD alignment + Layout
 
 ## Accessing the Dataset
 The VET-IndoorDataset is hosted on OneDrive due to the large size. You can access and download the scenes following the next link:
