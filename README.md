@@ -28,8 +28,12 @@ Temporarily, please refer to the conference publication:
 The dataset consists of 30 indoor scenes, specifically, 2 bathrooms, 4 storage rooms, 1 pizzeria, 4 living rooms, 1 bedroom, 1 kitchen, 1 i+d lab, 3 offices, 1 clothing store, and 12 meeting rooms.
 For each room, the sensor data in .sens files is provided; it was captured with an Intel RealSense D415i through the BundleFusion app implemented in VET. Additionally, for the room_demo used in the results
 of the original paper, we also provide the step-by-step virtualization results; more precisely, we provide the .ply file for the 3D reconstruction, the 3D semantic segmentation and the 3D instance 
-segmentation, and a .fbx file for the CAD alignment + layout. For the interpretation of these results, the 3D instance segmentation results represent every individual instance with a different random color,
-and the 3D semantic segmentation results represent the same objects with the same colors. The dataset organization is as follows:
+segmentation, and a .fbx file for the CAD alignment + layout. Regarding the interpretation of these results, the 3D instance segmentation results represent every individual instance with a different random color,
+and the 3D semantic segmentation results are color coded following the next image. 
+
+![Figure 1](./Images/colors.png) 
+
+The scenes dataset organization is as follows:
 
 - room_demo
 	- Sensor data (.sens file)
@@ -46,13 +50,20 @@ and the 3D semantic segmentation results represent the same objects with the sam
 		- Camera pose information
 		- Camera intrinsics
 
-## Accessing the Dataset
+The CAD dataset is organized following the [ShapeNet](https://shapenet.org/) organization. It is divided in folders with ids that represent the type of objects, with individual folders for each model inside.
+The dataset also contains a taxonomy.json file that links the class names to the ids.
+
+## Accessing the Datasets
 The VET-IndoorDataset is hosted on OneDrive due to the large size. You can access and download the scenes following the next link:
 
 [Download VET-IndoorDataset from OneDrive](https://upvedues-my.sharepoint.com/:f:/g/personal/pamogar_upv_edu_es/EkXtIVKaAltNkaleXeFLfZABZpTvqg6BDXhUDPDmm410qw?e=45wBNp)
 
+The VET-CAD-Dataset is hosted on OneDrive due to the large size. You can access and download the scenes following the next link:
+
+[Download VET-CAD-Dataset from OneDrive](https://upvedues-my.sharepoint.com/:f:/g/personal/pamogar_upv_edu_es/Ev8i533sCsJMi_H4_Ghw0sUBHM1eB_q4gAidiUUITKRXiQ?e=FE5Ije)
+
 ## Citation
-If you find VET-IndoorDataset useful for your research, please consider citing it:
+If you find VET-IndoorDataset or VET-CAD-Dataset useful for your research, please consider citing it:
 
 ```
 Paper is now on review. The citation will be updated once the paper is published.
@@ -72,7 +83,7 @@ Paper is now on review. The citation will be updated once the paper is published
 ```
 
 ## License
-This dataset is released under the [MIT License](https://github.com/Pamogar/VET-IndoorDataset/blob/main/LICENSE).
+This datasets are released under the [MIT License](https://github.com/Pamogar/VET-IndoorDataset/blob/main/LICENSE).
 
 
 For any questions or concerns regarding the dataset, please feel free to contact the project maintainers.
